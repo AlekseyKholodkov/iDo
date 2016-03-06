@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5131" started-at="2016-03-06T20:25:17Z" finished-at="2016-03-06T20:25:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5131" started-at="2016-03-06T20:25:17Z" finished-at="2016-03-06T20:25:22Z">
+      <class name="com.kholodkov.ido.task.TaskDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="18" started-at="2016-03-06T22:25:21Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="55" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.deleteTaskTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="203" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.deleteTaskTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="deleteTaskTest()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="deleteTaskTest" duration-ms="0" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTaskTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="91" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.insertTaskTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertTaskTest()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="insertTaskTest" duration-ms="50" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTaskTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="172" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.insertTaskTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="133" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.insertTaskVsSubTasks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="insertTaskVsSubTasks()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="insertTaskVsSubTasks" duration-ms="5" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTaskVsSubTasks -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="283" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.insertTaskVsSubTasks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="111" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.selectTaskTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="selectTaskTest()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="selectTaskTest" duration-ms="1" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTaskTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="249" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.task.TaskDaoImplTest.selectTaskTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.kholodkov.ido.task.TaskDaoImplTest@1ed828d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.kholodkov.ido.task.TaskDaoImplTest -->
+      <class name="com.kholodkov.ido.config.SpringApplicationContextTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="2" started-at="2016-03-06T22:25:18Z" finished-at="2016-03-06T22:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2859" started-at="2016-03-06T22:25:18Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-03-06T22:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2016-03-06T22:25:20Z" finished-at="2016-03-06T22:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.config.SpringApplicationContextTest.dataSourceHasConnection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="dataSourceHasConnection()[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="dataSourceHasConnection" duration-ms="98" started-at="2016-03-06T22:25:20Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSourceHasConnection -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.config.SpringApplicationContextTest.dataSourceHasConnection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.config.SpringApplicationContextTest.sessionFactoryHasSession()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sessionFactoryHasSession()[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="sessionFactoryHasSession" duration-ms="60" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionFactoryHasSession -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.kholodkov.ido.config.SpringApplicationContextTest.sessionFactoryHasSession()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.kholodkov.ido.config.SpringApplicationContextTest@43cd28]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-03-06T22:25:21Z" finished-at="2016-03-06T22:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.kholodkov.ido.config.SpringApplicationContextTest -->
+      <class name="com.kholodkov.ido.task.TaskTest">
+        <test-method status="PASS" signature="addSubTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="addSubTask" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSubTask -->
+        <test-method status="PASS" signature="getNewTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="getNewTask" is-config="true" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewTask -->
+        <test-method status="PASS" signature="getNewTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="getNewTask" is-config="true" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewTask -->
+        <test-method status="PASS" signature="newTaskInitializeInStateWIllBeDone()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="newTaskInitializeInStateWIllBeDone" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTaskInitializeInStateWIllBeDone -->
+        <test-method status="PASS" signature="getNewTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="getNewTask" is-config="true" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewTask -->
+        <test-method status="PASS" signature="newTaskHasEmptySubTasks()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="newTaskHasEmptySubTasks" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTaskHasEmptySubTasks -->
+        <test-method status="PASS" signature="getNewTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="getNewTask" is-config="true" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewTask -->
+        <test-method status="PASS" signature="newUserCanSeeStartTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="newUserCanSeeStartTask" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserCanSeeStartTask -->
+        <test-method status="PASS" signature="getNewTask()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="getNewTask" is-config="true" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewTask -->
+        <test-method status="PASS" signature="toStringWorkCorrect()[pri:0, instance:com.kholodkov.ido.task.TaskTest@3d45bd]" name="toStringWorkCorrect" duration-ms="0" started-at="2016-03-06T22:25:22Z" finished-at="2016-03-06T22:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringWorkCorrect -->
+      </class> <!-- com.kholodkov.ido.task.TaskTest -->
+      <class name="com.kholodkov.ido.db.DbConnectionTest">
+        <test-method status="PASS" signature="dbConnectionOk()[pri:0, instance:com.kholodkov.ido.db.DbConnectionTest@f41634]" name="dbConnectionOk" duration-ms="703" started-at="2016-03-06T22:25:17Z" finished-at="2016-03-06T22:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionOk -->
+      </class> <!-- com.kholodkov.ido.db.DbConnectionTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
