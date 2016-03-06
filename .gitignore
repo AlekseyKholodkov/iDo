@@ -2,3 +2,8 @@
 out\
 target\
 iDo.iml
+
+*.class
+*.jar
+*.war
+*.ear
