@@ -3,6 +3,7 @@ out/
 target/
 iDo.iml
 
+*.properties
 *.class
 *.jar
 *.war
