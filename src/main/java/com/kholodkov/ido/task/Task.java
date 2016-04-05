@@ -16,7 +16,7 @@ public class Task implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String text;
+    private String title;
 
     @Enumerated(EnumType.STRING)
     private TaskState state = TaskState.OPEN;
@@ -30,8 +30,8 @@ public class Task implements Serializable {
     public Task() {
     }
 
-    public Task(String text) {
-        this.text = text;
+    public Task(String title) {
+        this.title = title;
     }
 
     public long getId() {
@@ -42,12 +42,12 @@ public class Task implements Serializable {
         this.id = id;
     }
 
-    public String getText() {
-        return text;
+    public String getTitle() {
+        return title;
     }
 
-    public void setText(String task) {
-        this.text = task;
+    public void setTitle(String task) {
+        this.title = task;
     }
 
     public TaskState getState() {
@@ -77,7 +77,7 @@ public class Task implements Serializable {
     @Override
     public String toString() {
         return  "id=" + id + ", " +
-                "task=" + text + ", " +
+                "task=" + title + ", " +
                 "taskState=" + state + ", " +
                 "superTask=" + superTask + ", " +
                 "subTasks=" + subTasks + ".";

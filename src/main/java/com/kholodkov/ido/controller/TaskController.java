@@ -11,8 +11,10 @@ import java.util.concurrent.atomic.AtomicLong;
 public class TaskController {
     private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping(value = "/task", method = RequestMethod.GET)
-    public Task task() {
-        return new Task("Task Controller");
+    @RequestMapping(value = "/tasks", method = RequestMethod.GET)
+    public Task tasks() {
+        Task task = new Task("Task Controller");
+        task.setId(1);
+        return task;
     }
 }

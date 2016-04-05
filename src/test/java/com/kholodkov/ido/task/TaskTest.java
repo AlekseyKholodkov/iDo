@@ -14,9 +14,9 @@ public class TaskTest {
     }
 
     public void newUserCanSeeStartTask() {
-        Assert.assertEquals(task.getText(), "My test com.kholodkov.task");
-        task.setText("New text");
-        Assert.assertEquals(task.getText(), "New text");
+        Assert.assertEquals(task.getTitle(), "My test com.kholodkov.task");
+        task.setTitle("New text");
+        Assert.assertEquals(task.getTitle(), "New text");
     }
 
     @Test
@@ -37,6 +37,6 @@ public class TaskTest {
     @Test
     public void addSubTask() {
         task.getSubTasks().add(new Task("Sub Task"));
-        Assert.assertEquals(task.getSubTasks().get(0).getText(), "Sub Task");
+        Assert.assertEquals(task.getSubTasks().get(0).getTitle(), "Sub Task");
     }
 }
