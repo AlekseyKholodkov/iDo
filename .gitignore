@@ -2,7 +2,7 @@
 !.idea/artifacts/
 out/
 target/
-iDo.iml
+*.iml
 
 *.properties
 *.class
