@@ -1,7 +1,6 @@
 <html>
 <body>
-<h2>Index JSP</h2>
-<div>div1</div>
-<a href="tasks">get tasks</a>
+<h2>I'm Doing what I need</h2>
+<a href="tasks">get my tasks</a>
 </body>
 </html>

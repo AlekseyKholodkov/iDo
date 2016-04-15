@@ -21,7 +21,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource(value = "classpath:iDo.properties")
+@PropertySource(value = {"classpath:iDo.properties"})
 public class SpringApplicationContext {
 
     /** DB connection */
