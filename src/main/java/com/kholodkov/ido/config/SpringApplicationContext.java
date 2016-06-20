@@ -63,8 +63,8 @@ public class SpringApplicationContext {
         return properties;
     }
 
-    @Autowired
     @Bean
+    @Autowired
     SessionFactory sessionFactory(DataSource dataSource) {
         LocalSessionFactoryBuilder sessionBuilder = new LocalSessionFactoryBuilder(dataSource);
         sessionBuilder
