@@ -1,27 +1,29 @@
 package com.kholodkov.ido.config;
 
-import com.kholodkov.ido.task.Task;
-import com.kholodkov.ido.dao.TaskDao;
-import com.kholodkov.ido.dao.TaskDaoImpl;
+import java.util.Properties;
+
+import javax.sql.DataSource;
+
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
-import org.springframework.test.context.ContextHierarchy;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import org.springframework.web.context.WebApplicationContext;
 
-import javax.sql.DataSource;
-import java.util.Properties;
+import com.kholodkov.ido.dao.TaskDao;
+import com.kholodkov.ido.dao.TaskDaoImpl;
+import com.kholodkov.ido.task.Task;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource(value = {"classpath:iDo.properties"})
+@PropertySource(value = {"classpath:config/ido.properties"})
 public class SpringApplicationContext {
 
     /** DB connection */
