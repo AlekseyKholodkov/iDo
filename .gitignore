@@ -5,6 +5,7 @@ target/
 *.iml
 
 *.properties
+!*example.properties
 *.class
 *.jar
 *.war
